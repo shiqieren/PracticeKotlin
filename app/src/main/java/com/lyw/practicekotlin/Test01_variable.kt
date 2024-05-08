@@ -7,7 +7,7 @@ const val PI = 3.1415 //常量
 fun main() {
     a= 2
 //    b = 3.0 val只能初始化一次，只读
-    val c:Float = 4.0f
+    val c:Float = 4.0f  //置灰色可省略，自动类型推导 等价于val c = 4.0f
     println("first test")
     println("first test $a")
     println("first test "+ b)
