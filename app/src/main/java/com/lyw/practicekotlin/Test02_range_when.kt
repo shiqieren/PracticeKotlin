@@ -2,7 +2,7 @@ package com.lyw.practicekotlin
 
 fun main() {
     val num = 149
-    if (num in 0..59){
+    if (num in 0..59){ //range区间
         println("不及格")
     }else{
         println("及格")
@@ -13,7 +13,8 @@ fun main() {
 
 fun whenstatement(week:Int){
 
-    val info = when(week){
+    val info = when(week){ //
+
         1 -> "差"
         2 -> "差"
         3 -> "差"
@@ -21,6 +22,7 @@ fun whenstatement(week:Int){
         5 -> "差"
         6 -> "差"
         7 -> "差"
+        in 0..100 -> "其他"
         else -> {
             println("不可估量")
         }
